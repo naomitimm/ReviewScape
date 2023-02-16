@@ -1,0 +1,14 @@
+part of 'login_bloc.dart';
+
+@immutable
+abstract class LoginEvent extends Equatable {}
+
+class LoginRequested extends LoginEvent {
+  LoginRequested({required this.email, required this.password});
+
+  final String email;
+  final String password;
+
+  @override
+  List<Object?> get props => [email, password];
+}
