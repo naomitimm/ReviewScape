@@ -77,11 +77,11 @@ class ReviewScapePages extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           home: Navigator(
             pages: [
-              const MaterialPage(child: LandingScreen()),
-              // const MaterialPage(
-              //     child: DashboardScreen(
-              //   user: User(email: "", fullName: "", userName: ""),
-              // )),
+              // const MaterialPage(child: LandingScreen()),
+              const MaterialPage(
+                  child: DashboardScreen(
+                user: User(email: "", fullName: "", userName: ""),
+              )),
               if (state is SignupRoute) MaterialPage(child: SignupScreen()),
               if (state is LoginRoute) const MaterialPage(child: LoginScreen()),
               if (state is LandingRoute)
