@@ -39,6 +39,7 @@ class UserFormValidator extends Equatable {
     return null;
   }
 
+
   static String? validateUserName(String? userName) {
     if (RegExp("[A-Z]").hasMatch(userName!)) {
       return "Upper case letters are not permitted in a user name";
