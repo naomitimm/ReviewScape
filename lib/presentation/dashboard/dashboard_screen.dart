@@ -20,6 +20,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   @override
   Widget build(BuildContext context) {
+    print(newUser);
     List myPages = [
       HomeScreen(user: newUser),
       WishlistScreen(user: newUser),
