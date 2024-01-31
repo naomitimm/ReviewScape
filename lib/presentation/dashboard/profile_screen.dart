@@ -147,7 +147,7 @@ class ProfileScreen extends StatelessWidget {
                           Icons.date_range,
                           color: Color.fromRGBO(255, 114, 76, 1),
                         )),
-                    text: "Joined in January 2023",
+                    text: "Joined in January 2024",
                     dispatcher: () {},
                   ),
                 ],

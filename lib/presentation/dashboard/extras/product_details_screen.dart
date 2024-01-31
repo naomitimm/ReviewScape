@@ -76,7 +76,7 @@ class ProductDetailsScreen extends StatelessWidget {
               const DetailsProductHeadline2(title: "Description"),
               const DetailsSmallText(
                   text:
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."),
+                      "A renowned and trusted name in the world of tea, brings you a delightful experience with its exceptional tea blends. Known for its commitment to quality and innovation, Lipton offers a diverse range of teas crafted to suit every taste preference."),
               Text(
                 product.description,
                 style: GoogleFonts.montserrat(
@@ -88,7 +88,8 @@ class ProductDetailsScreen extends StatelessWidget {
               ),
               const DetailsProductHeadline2(title: "Ingridients"),
               const DetailsSmallText(
-                  text: "Lorem ipsum dolor sit amet, lla pariatur."),
+                  text:
+                      "Eight catechins\nCaffeine\nTheaflavine\nGallic acid\nChlorogenic acid"),
               Center(
                   child: BlocConsumer<WishlistBloc, WishlistState>(
                 listener: (context, state) {
